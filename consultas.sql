@@ -1,4 +1,4 @@
--- Listado de stock
+-- Listado de Stock: Obtener el número de serie, material y color de todas las piernas que pertenezcan al lado derecho.
 SELECT 
     p.id_pierna_der AS 'Nro Serie',
     m.nombre AS 'Material',
