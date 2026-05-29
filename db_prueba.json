@@ -1,0 +1,158 @@
+{
+  "maniquies": [
+    {
+      "id": "1",
+      "id_cabeza": 1,
+      "id_torso": 1,
+      "id_pierna_izq": 1,
+      "id_pierna_der": 1,
+      "id_brazo_izq": 1,
+      "id_brazo_der": 1,
+      "stock": 5,
+      "precio": 15000.5
+    },
+    {
+      "id": "2",
+      "id_cabeza": 2,
+      "id_torso": 2,
+      "id_pierna_izq": 2,
+      "id_pierna_der": 2,
+      "id_brazo_izq": 2,
+      "id_brazo_der": 2,
+      "stock": 3,
+      "precio": 18000.75
+    },
+    {
+      "id": "3",
+      "id_cabeza": 3,
+      "id_torso": 3,
+      "id_pierna_izq": 3,
+      "id_pierna_der": 3,
+      "id_brazo_izq": 3,
+      "id_brazo_der": 3,
+      "stock": 2,
+      "precio": 20000
+    },
+    {
+      "id": "4",
+      "id_cabeza": 4,
+      "id_torso": 4,
+      "id_pierna_izq": 4,
+      "id_pierna_der": 4,
+      "id_brazo_izq": 4,
+      "id_brazo_der": 4,
+      "stock": 1,
+      "precio": 25000
+    },
+    {
+      "id": "5",
+      "id_cabeza": 5,
+      "id_torso": 5,
+      "id_pierna_izq": 5,
+      "id_pierna_der": 5,
+      "id_brazo_izq": 5,
+      "id_brazo_der": 5,
+      "stock": 1,
+      "precio": 30000
+    },
+    {
+      "id_cabeza": 2,
+      "id_torso": 2,
+      "id_brazo_izq": 2,
+      "id_brazo_der": 2,
+      "id_pierna_izq": 2,
+      "id_pierna_der": 2,
+      "stock": 22,
+      "precio": 20000,
+      "id": "7"
+    },
+    {
+      "id_cabeza": 3,
+      "id_torso": 2,
+      "id_brazo_izq": 2,
+      "id_brazo_der": 5,
+      "id_pierna_izq": 1,
+      "id_pierna_der": 1,
+      "stock": 5,
+      "precio": 15000,
+      "id": "yWGMXi_t6qk"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "11111111",
+      "nombre": "Juan García",
+      "telefono": "1122334455"
+    },
+    {
+      "id": "22222222",
+      "nombre": "Maria Pérez",
+      "telefono": "2233445566"
+    },
+    {
+      "id": "33333333",
+      "nombre": "Local Centro",
+      "telefono": "3344556677"
+    },
+    {
+      "id": "44444444",
+      "nombre": "Francisco López",
+      "telefono": "4455667788"
+    },
+    {
+      "id": "55555555",
+      "nombre": "Ana Martínez",
+      "telefono": "5566778899"
+    },
+    {
+      "id": "66666666",
+      "nombre": "Luisa Gómez",
+      "telefono": "6677889900"
+    }
+  ],
+  "ventas": [
+    {
+      "id": "1",
+      "dni_cliente": 11111111,
+      "id_maniqui": 1,
+      "cantidad": 2,
+      "fecha": "2026-04-23"
+    },
+    {
+      "id": "2",
+      "dni_cliente": 22222222,
+      "id_maniqui": 2,
+      "cantidad": 1,
+      "fecha": "2026-04-24"
+    },
+    {
+      "id": "3",
+      "dni_cliente": 33333333,
+      "id_maniqui": 3,
+      "cantidad": 1,
+      "fecha": "2026-04-25"
+    },
+    {
+      "id": "4",
+      "dni_cliente": 44444444,
+      "id_maniqui": 4,
+      "cantidad": 1,
+      "fecha": "2026-04-26"
+    },
+    {
+      "id": "5",
+      "dni_cliente": 55555555,
+      "id_maniqui": 5,
+      "cantidad": 1,
+      "fecha": "2026-04-27"
+    },
+    {
+      "id": "6",
+      "dni_cliente": 33333333,
+      "id_maniqui": 1,
+      "cantidad": 1,
+      "fecha": "2026-04-28"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
